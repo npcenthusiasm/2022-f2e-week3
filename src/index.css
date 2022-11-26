@@ -1,8 +1,38 @@
+
+
+@font-face {
+  font-family: 'Gen Jyuu Gothic P';
+  src: url('../public/font/genjyuugothic-20150607/GenJyuuGothic-P-Normal.ttf');
+  font-weight: 400;
+}
+
+
+@font-face {
+  font-family: 'Gen Jyuu Gothic P';
+  src: url('../public/font/genjyuugothic-20150607/GenJyuuGothic-P-Regular.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Gen Jyuu Gothic P';
+  src: url('../public/font/genjyuugothic-20150607/GenJyuuGothic-P-Medium.ttf');
+  font-weight: 600;
+}
+
+
+
+@font-face {
+  font-family: 'Gen Jyuu Gothic P';
+  src: url('../public/font/genjyuugothic-20150607/GenJyuuGothic-P-Bold.ttf');
+  font-weight: 700;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+  font-family: 'Gen Jyuu Gothic P';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -11,3 +41,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* 
+
+@font-face {
+  font-family: 'Gen Jyuu Gothic P';
+  src: url('./font/genjyuugothic-20150607/GenJyuuGothic-P-Bold.ttf');
+  font-weight: 700;
+}
+
+
+@font-face {
+  font-family: 'Gen Jyuu Gothic P';
+  src: url('./font/genjyuugothic-20150607/GenJyuuGothic-P-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Gen Jyuu Gothic P';
+  src: url('./font/genjyuugothic-20150607/GenJyuuGothic-P-Bold.ttf');
+  font-weight: 700;
+} */
