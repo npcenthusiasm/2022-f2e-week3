@@ -4,7 +4,7 @@ import './index.css';
 import App from './components/App';
 import Home from './components/Home';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import { ThemeProvider } from 'styled-components';
 
 // theme
@@ -79,11 +79,11 @@ const theme = {
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <React.StrictMode>
-  <BrowserRouter>
+  <HashRouter>
     <ThemeProvider theme={theme}>
       <App />
     </ThemeProvider>
-  </BrowserRouter>
+  </HashRouter>
   // </React.StrictMode>
 );
 
